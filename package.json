@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/MANOJPATRA1991/Image-optimization-app#readme",
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "font-awesome": "4.7.0"
   }
 }
