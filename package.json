@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/MANOJPATRA1991/Image-optimization-app/issues"
   },
-  "homepage": "https://github.com/MANOJPATRA1991/Image-optimization-app#readme"
+  "homepage": "https://github.com/MANOJPATRA1991/Image-optimization-app#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
 }
