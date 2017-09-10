@@ -1,0 +1,23 @@
+{
+  "name": "image-optimization",
+  "version": "1.0.0",
+  "description": "An image optimization and conversion app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MANOJPATRA1991/Image-optimization-app.git"
+  },
+  "keywords": [
+    "Image",
+    "Optimization"
+  ],
+  "author": "Manoj Patra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MANOJPATRA1991/Image-optimization-app/issues"
+  },
+  "homepage": "https://github.com/MANOJPATRA1991/Image-optimization-app#readme"
+}
