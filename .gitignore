@@ -1,5 +1,6 @@
-.idea/vcs.xml
-.idea/workspace.xml
-flask
-app/static/node_modules
-env
+.idea/
+app/static/node_modules/
+env/
+app/__pycache__/
+app/input_module/__pycache__/
+__pycache__/

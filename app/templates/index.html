@@ -16,6 +16,20 @@
 		<link rel="stylesheet" href="{{url_for('static', filename='node_modules/bootstrap/dist/js/bootstrap.min.js')}}">
     </head>
     <body>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <form class="form-horizontal" action="{{url_for('input_mod.convert_to_pdf')}}" method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="images">Upload images to add to pdf file:</label>
+                            {% for n in range(4) %}
+                                <input type="file" name="image{{ n }}" accept="image/x-png,image/gif,image/jpeg" />
+                            {% endfor %}
+                            <input class="btn btn-primary" type="submit" value="Convert" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
