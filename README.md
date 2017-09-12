@@ -21,7 +21,7 @@ A pdf with images generation application.
     Bootstrap: `npm install --prefix ./app/static bootstrap`
     
     Font-awesome: `npm install --prefix ./app/static font-awesome`
-8. Run the program with env\Scripts\python run.py
+8. Run the program with `env\Scripts\python run.py`
 
 ## References
 1. [wkhtmltopdf](https://wkhtmltopdf.org/)
