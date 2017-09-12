@@ -58,7 +58,8 @@ def convert_to_pdf():
         # once the pdf file is generated
         file_list = [f for f in os.listdir(app.config['UPLOAD_IMAGES_FOLDER'])]
         for f in file_list:
-            os.remove(os.path.join(app.config['UPLOAD_IMAGES_FOLDER'], f))
+            if(allowed_file(f)):
+                os.remove(os.path.join(app.config['UPLOAD_IMAGES_FOLDER'], f))
         return response
 
 
