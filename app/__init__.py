@@ -1,12 +1,12 @@
 from flask import Flask
-from config import UPLOAD_IMAGES_FOLDER
 
+# Create Flask app
 app = Flask(__name__)
 
 from .input_module.input import input
 
+# Register input blueprint on app
 app.register_blueprint(input)
 
-app.config.from_object('config')
-
-app.config['UPLOAD_IMAGES_FOLDER'] = UPLOAD_IMAGES_FOLDER
+# Enable configuration for the app
+app.config.from_object('config.Config')
