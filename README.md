@@ -1,6 +1,7 @@
 # Image-optimization-app
 
 A pdf with images generation application.
+This project is developed on Windows 10 OS and uses Python 3.
 
 ## Installation and Test requirements
 
@@ -14,7 +15,7 @@ A pdf with images generation application.
         1. flask
         2. pdfkit
         
-5. Install wkhtmltopdf from [https://wkhtmltopdf.org/downloads.html](https://wkhtmltopdf.org/downloads.html).
+5. Download and Install wkhtmltopdf from [https://wkhtmltopdf.org/downloads.html](https://wkhtmltopdf.org/downloads.html) for Windows 64 bit.
 6. Check the path to **wkhtmltopdf.exe** is correct in **app/input_module/input.py**.
 7. Install the following node packages if not already installed in the app/static folder:
     
