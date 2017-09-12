@@ -12,21 +12,18 @@ A pdf with images generation application.
     The packages used for this project include:
         
         1. flask
-        2. Flask-Images
-        3. Werkzeug
-        4. pdfkit
+        2. pdfkit
         
 5. Install wkhtmltopdf from [https://wkhtmltopdf.org/downloads.html](https://wkhtmltopdf.org/downloads.html).
 6. Check the path to **wkhtmltopdf.exe** is correct in **app/input_module/input.py**.
 7. Install the following node packages if not already installed in the app/static folder:
     
-    Bootstrap: `npm install --prefix ./static bootstrap`
+    Bootstrap: `npm install --prefix ./app/static bootstrap`
     
-    Font-awesome: `npm install --prefix ./static font-awesome`
+    Font-awesome: `npm install --prefix ./app/static font-awesome`
     
 ## References
 1. [wkhtmltopdf](https://wkhtmltopdf.org/)
 2. [pdfkit](https://pypi.python.org/pypi/pdfkit)
 3. [Flask](flask.pocoo.org/)
-4. [Flask-Images](https://mikeboers.github.io/Flask-Images/)
     
