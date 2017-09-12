@@ -1,5 +1,7 @@
 # Image-optimization-app
 
+A pdf with images generation application.
+
 ## Installation and Test requirements
 
 1. Create a folder and clone the repository to that folder.
@@ -21,4 +23,10 @@
     Bootstrap: `npm install --prefix ./static bootstrap`
     
     Font-awesome: `npm install --prefix ./static font-awesome`
+    
+## References
+1. [wkhtmltopdf](https://wkhtmltopdf.org/)
+2. [pdfkit](https://pypi.python.org/pypi/pdfkit)
+3. [Flask](flask.pocoo.org/)
+4. [Flask-Images](https://mikeboers.github.io/Flask-Images/)
     
