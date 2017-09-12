@@ -22,6 +22,7 @@ A pdf with images generation application.
     
     Font-awesome: `npm install --prefix ./app/static font-awesome`
 8. Run the program with env\Scripts\python run.py
+
 ## References
 1. [wkhtmltopdf](https://wkhtmltopdf.org/)
 2. [pdfkit](https://pypi.python.org/pypi/pdfkit)
