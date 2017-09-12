@@ -17,6 +17,8 @@
 5. Install wkhtmltopdf from [https://wkhtmltopdf.org/downloads.html](https://wkhtmltopdf.org/downloads.html).
 6. Check the path to **wkhtmltopdf.exe** is correct in **app/input_module/input.py**.
 7. Install the following node packages if not already installed in the app/static folder:
+    
     Bootstrap: `npm install --prefix ./static bootstrap`
+    
     Font-awesome: `npm install --prefix ./static font-awesome`
     
